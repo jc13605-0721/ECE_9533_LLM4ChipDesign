@@ -1,0 +1,21 @@
+# =============================================================================
+# DEPS.yml - TinyMAC 4x4 MAC Array Accelerator
+# Description: Dependency configuration for simulation
+# =============================================================================
+
+# Testbench target for simulation
+tb_mac_array:
+  deps:
+    - mac_unit.sv
+    - controller_fsm.sv
+    - mac_array_4x4.sv
+    - tb_mac_array_4x4.sv
+  top: tb_mac_array_4x4
+
+# RTL-only target (for synthesis or integration)
+mac_array_rtl:
+  deps:
+    - mac_unit.sv
+    - controller_fsm.sv
+    - mac_array_4x4.sv
+  top: mac_array_4x4
