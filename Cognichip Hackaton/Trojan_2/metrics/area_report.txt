@@ -1,0 +1,414 @@
+
+19. Printing statistics.
+
+=== aes ===
+
+   Number of wires:               1634
+   Number of wire bits:           4357
+   Number of public wires:          42
+   Number of public wire bits:    1181
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1042
+     aes_core                        1
+     sky130_fd_sc_hd__a21oi_1       27
+     sky130_fd_sc_hd__a22oi_1       20
+     sky130_fd_sc_hd__a31oi_1        5
+     sky130_fd_sc_hd__and2_0         3
+     sky130_fd_sc_hd__and3_1         3
+     sky130_fd_sc_hd__and4_1         2
+     sky130_fd_sc_hd__and4b_1        4
+     sky130_fd_sc_hd__dfrtp_1      518
+     sky130_fd_sc_hd__lpflow_isobufsrc_1      4
+     sky130_fd_sc_hd__mux2_1       386
+     sky130_fd_sc_hd__mux4_2        22
+     sky130_fd_sc_hd__nand2_1        1
+     sky130_fd_sc_hd__nand2b_1       1
+     sky130_fd_sc_hd__nand3_1       25
+     sky130_fd_sc_hd__nand4_1       13
+     sky130_fd_sc_hd__nand4b_1       1
+     sky130_fd_sc_hd__nor2_1         2
+     sky130_fd_sc_hd__nor3b_1        1
+     sky130_fd_sc_hd__nor4_1         2
+     sky130_fd_sc_hd__nor4bb_1       1
+
+   Area for cell type \aes_core is unknown!
+
+   Chip area for module '\aes': 18503.996800
+
+=== aes_core ===
+
+   Number of wires:                579
+   Number of wire bits:           1738
+   Number of public wires:          38
+   Number of public wire bits:    1190
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                187
+     aes_decipher_block              1
+     aes_encipher_block              1
+     aes_key_mem                     1
+     aes_sbox                        1
+     sky130_fd_sc_hd__a21o_1         1
+     sky130_fd_sc_hd__a32o_1         1
+     sky130_fd_sc_hd__and2_0         1
+     sky130_fd_sc_hd__clkinv_1       1
+     sky130_fd_sc_hd__dfrtp_1        3
+     sky130_fd_sc_hd__dfstp_2        1
+     sky130_fd_sc_hd__lpflow_isobufsrc_1      1
+     sky130_fd_sc_hd__mux2_1       164
+     sky130_fd_sc_hd__mux2i_1        1
+     sky130_fd_sc_hd__nand2b_1       1
+     sky130_fd_sc_hd__nand3b_1       2
+     sky130_fd_sc_hd__nor2_1         1
+     sky130_fd_sc_hd__o21ai_0        4
+     sky130_fd_sc_hd__o2bb2ai_1      1
+
+   Area for cell type \aes_encipher_block is unknown!
+   Area for cell type \aes_decipher_block is unknown!
+   Area for cell type \aes_key_mem is unknown!
+   Area for cell type \aes_sbox is unknown!
+
+   Chip area for module '\aes_core': 2045.712000
+
+=== aes_decipher_block ===
+
+   Number of wires:               3618
+   Number of wire bits:          13059
+   Number of public wires:         618
+   Number of public wire bits:    7146
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2131
+     aes_inv_sbox                    1
+     sky130_fd_sc_hd__a2111oi_0     84
+     sky130_fd_sc_hd__a211o_1        4
+     sky130_fd_sc_hd__a21o_1         1
+     sky130_fd_sc_hd__a21oi_1      246
+     sky130_fd_sc_hd__a221o_1        2
+     sky130_fd_sc_hd__a221oi_1       1
+     sky130_fd_sc_hd__a22oi_1       64
+     sky130_fd_sc_hd__a32oi_1        1
+     sky130_fd_sc_hd__and2_0        24
+     sky130_fd_sc_hd__clkinv_1       1
+     sky130_fd_sc_hd__dfrtp_1      136
+     sky130_fd_sc_hd__dfstp_2        1
+     sky130_fd_sc_hd__lpflow_isobufsrc_1      4
+     sky130_fd_sc_hd__mux2_1         1
+     sky130_fd_sc_hd__nand2_1      136
+     sky130_fd_sc_hd__nand2b_1       1
+     sky130_fd_sc_hd__nand3_1        2
+     sky130_fd_sc_hd__nor2_1        91
+     sky130_fd_sc_hd__nor4_1         1
+     sky130_fd_sc_hd__o21ai_0      297
+     sky130_fd_sc_hd__o31ai_1        1
+     sky130_fd_sc_hd__or4_1          1
+     sky130_fd_sc_hd__xnor2_1      645
+     sky130_fd_sc_hd__xnor3_1      237
+     sky130_fd_sc_hd__xor2_1       134
+     sky130_fd_sc_hd__xor3_1        14
+
+   Area for cell type \aes_inv_sbox is unknown!
+
+   Chip area for module '\aes_decipher_block': 21016.406400
+
+=== aes_encipher_block ===
+
+   Number of wires:               3886
+   Number of wire bits:          10450
+   Number of public wires:         170
+   Number of public wire bits:    4367
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2625
+     sky130_fd_sc_hd__a211oi_1       3
+     sky130_fd_sc_hd__a21boi_0       1
+     sky130_fd_sc_hd__a21o_1        21
+     sky130_fd_sc_hd__a21oi_1      163
+     sky130_fd_sc_hd__a22o_1         1
+     sky130_fd_sc_hd__a22oi_1       64
+     sky130_fd_sc_hd__a311oi_1       1
+     sky130_fd_sc_hd__a31oi_1       26
+     sky130_fd_sc_hd__and2_0        13
+     sky130_fd_sc_hd__and3_1         1
+     sky130_fd_sc_hd__clkinv_1      60
+     sky130_fd_sc_hd__dfrtp_1      136
+     sky130_fd_sc_hd__dfstp_2        1
+     sky130_fd_sc_hd__lpflow_isobufsrc_1     28
+     sky130_fd_sc_hd__maj3_1        37
+     sky130_fd_sc_hd__mux2_1         2
+     sky130_fd_sc_hd__nand2_1      214
+     sky130_fd_sc_hd__nand2b_1      20
+     sky130_fd_sc_hd__nand3_1       37
+     sky130_fd_sc_hd__nand3b_1       2
+     sky130_fd_sc_hd__nand4_1        7
+     sky130_fd_sc_hd__nor2_1        29
+     sky130_fd_sc_hd__nor3_1         4
+     sky130_fd_sc_hd__nor4_1         3
+     sky130_fd_sc_hd__o2111ai_1      2
+     sky130_fd_sc_hd__o211ai_1       3
+     sky130_fd_sc_hd__o21ai_0      142
+     sky130_fd_sc_hd__o21bai_1       6
+     sky130_fd_sc_hd__o221ai_1     126
+     sky130_fd_sc_hd__o22ai_1        5
+     sky130_fd_sc_hd__o311a_1        1
+     sky130_fd_sc_hd__o311ai_0       1
+     sky130_fd_sc_hd__o31a_1         5
+     sky130_fd_sc_hd__o31ai_1        2
+     sky130_fd_sc_hd__xnor2_1     1227
+     sky130_fd_sc_hd__xnor3_1       21
+     sky130_fd_sc_hd__xor2_1       204
+     sky130_fd_sc_hd__xor3_1         6
+
+   Chip area for module '\aes_encipher_block': 22451.532800
+
+=== aes_inv_sbox ===
+
+   Number of wires:               3966
+   Number of wire bits:          23720
+   Number of public wires:         258
+   Number of public wire bits:    2112
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2180
+     sky130_fd_sc_hd__a211o_1        1
+     sky130_fd_sc_hd__a21o_1         3
+     sky130_fd_sc_hd__a21oi_1      430
+     sky130_fd_sc_hd__a22oi_1        2
+     sky130_fd_sc_hd__a31o_1         5
+     sky130_fd_sc_hd__a31oi_1       34
+     sky130_fd_sc_hd__a41o_1         2
+     sky130_fd_sc_hd__a41oi_1        6
+     sky130_fd_sc_hd__and2_0         1
+     sky130_fd_sc_hd__and3_1         6
+     sky130_fd_sc_hd__and4_1         3
+     sky130_fd_sc_hd__and4b_1        1
+     sky130_fd_sc_hd__clkinv_1       3
+     sky130_fd_sc_hd__lpflow_inputiso1p_1      6
+     sky130_fd_sc_hd__lpflow_isobufsrc_1      5
+     sky130_fd_sc_hd__nand2_1       37
+     sky130_fd_sc_hd__nand2b_1       7
+     sky130_fd_sc_hd__nand3_1       61
+     sky130_fd_sc_hd__nand4_1      103
+     sky130_fd_sc_hd__nand4b_1      36
+     sky130_fd_sc_hd__nand4bb_1     48
+     sky130_fd_sc_hd__nor2_1       429
+     sky130_fd_sc_hd__nor2b_1        2
+     sky130_fd_sc_hd__nor3_1       146
+     sky130_fd_sc_hd__nor3b_1        4
+     sky130_fd_sc_hd__nor4_1       320
+     sky130_fd_sc_hd__nor4b_1        3
+     sky130_fd_sc_hd__o2111ai_1     15
+     sky130_fd_sc_hd__o211ai_1       1
+     sky130_fd_sc_hd__o21ai_0       10
+     sky130_fd_sc_hd__o221ai_1       3
+     sky130_fd_sc_hd__o22a_1         3
+     sky130_fd_sc_hd__o22ai_1      368
+     sky130_fd_sc_hd__o31ai_1        2
+     sky130_fd_sc_hd__o32ai_1        3
+     sky130_fd_sc_hd__or3_1         12
+     sky130_fd_sc_hd__or4_1         26
+     sky130_fd_sc_hd__or4b_1        33
+
+   Chip area for module '\aes_inv_sbox': 12273.020800
+
+=== aes_key_mem ===
+
+   Number of wires:              12587
+   Number of wire bits:          22474
+   Number of public wires:          66
+   Number of public wire bits:    3648
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               9495
+     sky130_fd_sc_hd__a211o_1        1
+     sky130_fd_sc_hd__a21boi_0      32
+     sky130_fd_sc_hd__a21o_1        48
+     sky130_fd_sc_hd__a21oi_1      249
+     sky130_fd_sc_hd__a221oi_1     256
+     sky130_fd_sc_hd__a222oi_1     256
+     sky130_fd_sc_hd__a22o_1       301
+     sky130_fd_sc_hd__a22oi_1        4
+     sky130_fd_sc_hd__a31oi_1      113
+     sky130_fd_sc_hd__and2_0        57
+     sky130_fd_sc_hd__and3_1       130
+     sky130_fd_sc_hd__clkinv_1      26
+     sky130_fd_sc_hd__dfrtp_1     2190
+     sky130_fd_sc_hd__dfstp_2        1
+     sky130_fd_sc_hd__lpflow_inputiso1p_1     24
+     sky130_fd_sc_hd__lpflow_isobufsrc_1      3
+     sky130_fd_sc_hd__mux2_1         8
+     sky130_fd_sc_hd__mux2i_1       40
+     sky130_fd_sc_hd__nand2_1     2665
+     sky130_fd_sc_hd__nand2b_1       5
+     sky130_fd_sc_hd__nand3_1      140
+     sky130_fd_sc_hd__nand3b_1       1
+     sky130_fd_sc_hd__nand4_1        2
+     sky130_fd_sc_hd__nor2_1       124
+     sky130_fd_sc_hd__nor2b_1        8
+     sky130_fd_sc_hd__nor3_1         8
+     sky130_fd_sc_hd__nor3b_1        8
+     sky130_fd_sc_hd__nor4_1         3
+     sky130_fd_sc_hd__o21a_1        56
+     sky130_fd_sc_hd__o21ai_0     2346
+     sky130_fd_sc_hd__o21ba_1       24
+     sky130_fd_sc_hd__o22a_1         1
+     sky130_fd_sc_hd__xnor2_1      146
+     sky130_fd_sc_hd__xnor3_1       56
+     sky130_fd_sc_hd__xor2_1       163
+
+   Chip area for module '\aes_key_mem': 94556.937600
+
+=== aes_sbox ===
+
+   Number of wires:               3879
+   Number of wire bits:          22109
+   Number of public wires:         258
+   Number of public wire bits:    2112
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2105
+     sky130_fd_sc_hd__a2111oi_0      1
+     sky130_fd_sc_hd__a211oi_1       4
+     sky130_fd_sc_hd__a21o_1         2
+     sky130_fd_sc_hd__a21oi_1      410
+     sky130_fd_sc_hd__a22o_1         1
+     sky130_fd_sc_hd__a22oi_1        2
+     sky130_fd_sc_hd__a31o_1         6
+     sky130_fd_sc_hd__a31oi_1       40
+     sky130_fd_sc_hd__a41o_1         1
+     sky130_fd_sc_hd__a41oi_1       11
+     sky130_fd_sc_hd__and3_1         3
+     sky130_fd_sc_hd__and4_1         6
+     sky130_fd_sc_hd__and4b_1        2
+     sky130_fd_sc_hd__clkinv_1       1
+     sky130_fd_sc_hd__lpflow_inputiso1p_1      7
+     sky130_fd_sc_hd__lpflow_isobufsrc_1      4
+     sky130_fd_sc_hd__nand2_1       38
+     sky130_fd_sc_hd__nand2b_1       7
+     sky130_fd_sc_hd__nand3_1       53
+     sky130_fd_sc_hd__nand3b_1       1
+     sky130_fd_sc_hd__nand4_1      101
+     sky130_fd_sc_hd__nand4b_1      36
+     sky130_fd_sc_hd__nand4bb_1     48
+     sky130_fd_sc_hd__nor2_1       289
+     sky130_fd_sc_hd__nor2b_1        3
+     sky130_fd_sc_hd__nor3_1       185
+     sky130_fd_sc_hd__nor3b_1        3
+     sky130_fd_sc_hd__nor4_1       289
+     sky130_fd_sc_hd__nor4b_1        4
+     sky130_fd_sc_hd__o2111a_1       1
+     sky130_fd_sc_hd__o2111ai_1      5
+     sky130_fd_sc_hd__o211ai_1       2
+     sky130_fd_sc_hd__o21a_1         1
+     sky130_fd_sc_hd__o21ai_0        2
+     sky130_fd_sc_hd__o22a_1         5
+     sky130_fd_sc_hd__o22ai_1      438
+     sky130_fd_sc_hd__o311ai_0       1
+     sky130_fd_sc_hd__o31a_1         1
+     sky130_fd_sc_hd__o31ai_1        3
+     sky130_fd_sc_hd__o32ai_1        4
+     sky130_fd_sc_hd__or3_1         16
+     sky130_fd_sc_hd__or3b_1         3
+     sky130_fd_sc_hd__or4_1         31
+     sky130_fd_sc_hd__or4b_1        34
+
+   Chip area for module '\aes_sbox': 12190.441600
+
+=== design hierarchy ===
+
+   aes                               1
+     aes_core                        1
+       aes_decipher_block            1
+         aes_inv_sbox                1
+       aes_encipher_block            1
+       aes_key_mem                   1
+       aes_sbox                      1
+
+   Number of wires:              30149
+   Number of wire bits:          97907
+   Number of public wires:        1450
+   Number of public wire bits:   21756
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              19759
+     sky130_fd_sc_hd__a2111oi_0     85
+     sky130_fd_sc_hd__a211o_1        6
+     sky130_fd_sc_hd__a211oi_1       7
+     sky130_fd_sc_hd__a21boi_0      33
+     sky130_fd_sc_hd__a21o_1        76
+     sky130_fd_sc_hd__a21oi_1     1525
+     sky130_fd_sc_hd__a221o_1        2
+     sky130_fd_sc_hd__a221oi_1     257
+     sky130_fd_sc_hd__a222oi_1     256
+     sky130_fd_sc_hd__a22o_1       303
+     sky130_fd_sc_hd__a22oi_1      156
+     sky130_fd_sc_hd__a311oi_1       1
+     sky130_fd_sc_hd__a31o_1        11
+     sky130_fd_sc_hd__a31oi_1      218
+     sky130_fd_sc_hd__a32o_1         1
+     sky130_fd_sc_hd__a32oi_1        1
+     sky130_fd_sc_hd__a41o_1         3
+     sky130_fd_sc_hd__a41oi_1       17
+     sky130_fd_sc_hd__and2_0        99
+     sky130_fd_sc_hd__and3_1       143
+     sky130_fd_sc_hd__and4_1        11
+     sky130_fd_sc_hd__and4b_1        7
+     sky130_fd_sc_hd__clkinv_1      92
+     sky130_fd_sc_hd__dfrtp_1     2983
+     sky130_fd_sc_hd__dfstp_2        4
+     sky130_fd_sc_hd__lpflow_inputiso1p_1     37
+     sky130_fd_sc_hd__lpflow_isobufsrc_1     49
+     sky130_fd_sc_hd__maj3_1        37
+     sky130_fd_sc_hd__mux2_1       561
+     sky130_fd_sc_hd__mux2i_1       41
+     sky130_fd_sc_hd__mux4_2        22
+     sky130_fd_sc_hd__nand2_1     3091
+     sky130_fd_sc_hd__nand2b_1      42
+     sky130_fd_sc_hd__nand3_1      318
+     sky130_fd_sc_hd__nand3b_1       6
+     sky130_fd_sc_hd__nand4_1      226
+     sky130_fd_sc_hd__nand4b_1      73
+     sky130_fd_sc_hd__nand4bb_1     96
+     sky130_fd_sc_hd__nor2_1       965
+     sky130_fd_sc_hd__nor2b_1       13
+     sky130_fd_sc_hd__nor3_1       343
+     sky130_fd_sc_hd__nor3b_1       16
+     sky130_fd_sc_hd__nor4_1       618
+     sky130_fd_sc_hd__nor4b_1        7
+     sky130_fd_sc_hd__nor4bb_1       1
+     sky130_fd_sc_hd__o2111a_1       1
+     sky130_fd_sc_hd__o2111ai_1     22
+     sky130_fd_sc_hd__o211ai_1       6
+     sky130_fd_sc_hd__o21a_1        57
+     sky130_fd_sc_hd__o21ai_0     2801
+     sky130_fd_sc_hd__o21ba_1       24
+     sky130_fd_sc_hd__o21bai_1       6
+     sky130_fd_sc_hd__o221ai_1     129
+     sky130_fd_sc_hd__o22a_1         9
+     sky130_fd_sc_hd__o22ai_1      811
+     sky130_fd_sc_hd__o2bb2ai_1      1
+     sky130_fd_sc_hd__o311a_1        1
+     sky130_fd_sc_hd__o311ai_0       2
+     sky130_fd_sc_hd__o31a_1         6
+     sky130_fd_sc_hd__o31ai_1        8
+     sky130_fd_sc_hd__o32ai_1        7
+     sky130_fd_sc_hd__or3_1         28
+     sky130_fd_sc_hd__or3b_1         3
+     sky130_fd_sc_hd__or4_1         58
+     sky130_fd_sc_hd__or4b_1        67
+     sky130_fd_sc_hd__xnor2_1     2018
+     sky130_fd_sc_hd__xnor3_1      314
+     sky130_fd_sc_hd__xor2_1       501
+     sky130_fd_sc_hd__xor3_1        20
+
+   Chip area for top module '\aes': 183038.048000
+
